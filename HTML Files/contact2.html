@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" class="text/css" href="mycss2.css">
+  <link rel="stylesheet" class="text/css" href="new2.css">
+<style>  
+body{
+	background-image:url('contactimg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.card {
+  padding: 6px;
+  text-align: left;
+  background-color: black;
+  margin-left:130px;
+  margin-top:60;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+<!--
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+-->
+.mar2
+{
+	margin-left:150px;
+	margin-bottom:20px;
+	margin-top:60px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: linen;
+  padding: 20px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #45a049;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  height:30px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.navbar a:hover {
+  background-color: #cccccc;
+  height:8px;
+}
+</style>
+</head>
+<body style="background-image:contactimg.jpg">	
+<div class="navbar">
+  <a><img src="logo.jpg" width="50" height="50"></img></a>
+	  <a href="furmain.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+	  <a href="login.html"><i class="fa fa-fw fa-sign-in"></i>Login</a>
+	  <a href="register.html"><i class="fa fa-fw fa-user"></i> Register</a>
+</div>
+<font face="century">
+	<div class="row">
+		<div class="column">
+			<div class="card" style="width:30rem">
+				<p style="color:white;"><br><br>
+				<font color="white" size="5px">Contact us  <br><br></font>
+				<i style="font-size:24px" class="fa">&#xf041;</i>&emsp; <b>Address :</b> Dream Time Furniture<br> 
+					&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Pune , Maharashra, India 
+					<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Pin : 412 115
+					<br><br>
+					<i style="font-size:24px" class="fa">&#xf095;</i> &emsp;<b>Tel : </b>020 8532 9830<br><br>
+					<i style="font-size:24px" class="fa">&#xf0e0;</i>&emsp;<b>Email : </b>dtfurniture123@gmail.com<br><br>
+					<i style="font-size:24px" class="fa">&#xf0ac;</i>&emsp;<b>Website : </b>dreamtimefurniture.com<br><br><br><br>
+					</p></font>		
+			</div>
+		</div>
+		
+		<div class="column">
+			<h3 align="center">Get in Touch...</h3>
+
+		<div class="container">
+		  <form>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your Email..">
+
+		   
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something here.." style="height:100px"></textarea>
+			
+			<button class="button" onclick="submit2()">Let's Talk</button>
+		  </form>
+		</div>
+		</div>	
+	</div>
+	<script>
+		function submit2(){
+			alert("Your Response has submitted successfully...");
+		}
+	</script>	
+</body>
+</html>
