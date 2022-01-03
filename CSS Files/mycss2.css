@@ -1,0 +1,60 @@
+.bg{
+margin-left:400;
+margin-right:400;
+margin-top:30;
+margin-bottom:0;
+}
+a{
+	color:white;
+	font-size:30px
+	
+}
+#i1
+{
+	background-color:black;
+}
+
+.margin
+{
+	margin-left: 200px;
+	margin-right:50px;
+	margin-bottom:20px;
+	margin-top:px;
+}
+.mar2
+{
+	margin-left: 250px;
+	margin-right:1050px;
+	margin-bottom:20px;
+	margin-top:120px;
+	background-color:navy;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: linen;
+  padding: 20px;
+}
